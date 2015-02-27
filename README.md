@@ -11,4 +11,4 @@ This is a Visual C\# 4.5, built on Visual Studio 2010.
 Although I don't actively maintain iGraph anymore, I'm still
 interested in seeing its development continued. If anyone would like
 to help me get it in better shape, please don't hesitate to send me
-[email](mailto:leoferres@gmail.com) ,and ask for a pull.
+[email](mailto:leoferres@gmail.com), and ask for a pull.
