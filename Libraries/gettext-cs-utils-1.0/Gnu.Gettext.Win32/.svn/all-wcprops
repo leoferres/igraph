@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/igl/!svn/ver/62/trunk/Libraries/gettext-cs-utils-1.0/Gnu.Gettext.Win32
+END
+libiconv2.dll
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/igl/!svn/ver/62/trunk/Libraries/gettext-cs-utils-1.0/Gnu.Gettext.Win32/libiconv2.dll
+END
+libexpat.dll
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/igl/!svn/ver/62/trunk/Libraries/gettext-cs-utils-1.0/Gnu.Gettext.Win32/libexpat.dll
+END
+libintl3.dll
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/igl/!svn/ver/62/trunk/Libraries/gettext-cs-utils-1.0/Gnu.Gettext.Win32/libintl3.dll
+END
+libgettextlib.dll
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/igl/!svn/ver/62/trunk/Libraries/gettext-cs-utils-1.0/Gnu.Gettext.Win32/libgettextlib.dll
+END
+xgettext.exe
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/igl/!svn/ver/62/trunk/Libraries/gettext-cs-utils-1.0/Gnu.Gettext.Win32/xgettext.exe
+END
+libgettextsrc.dll
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/igl/!svn/ver/62/trunk/Libraries/gettext-cs-utils-1.0/Gnu.Gettext.Win32/libgettextsrc.dll
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.Tests.Unit/IO/Csv
+END
+CsvReaderTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.Tests.Unit/IO/Csv/CsvReaderTest.cs
+END
+CsvReaderIDataReaderTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.Tests.Unit/IO/Csv/CsvReaderIDataReaderTest.cs
+END
+CsvReaderMalformedTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.Tests.Unit/IO/Csv/CsvReaderMalformedTest.cs
+END
+CsvReaderSampleData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.Tests.Unit/IO/Csv/CsvReaderSampleData.cs
+END

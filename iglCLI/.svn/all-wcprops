@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/igl/!svn/ver/65/trunk/iglCLI
+END
+CleaningManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/igl/!svn/ver/41/trunk/iglCLI/CleaningManager.cs
+END
+iglCLI.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/igl/!svn/ver/65/trunk/iglCLI/iglCLI.csproj.user
+END
+FrenchGenerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/igl/!svn/ver/65/trunk/iglCLI/FrenchGenerator.cs
+END
+SeriesCleaner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/igl/!svn/ver/61/trunk/iglCLI/SeriesCleaner.cs
+END
+SGGeometry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/igl/!svn/ver/41/trunk/iglCLI/SGGeometry.cs
+END
+CsvParse.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/igl/!svn/ver/41/trunk/iglCLI/CsvParse.cs
+END
+TextboxCleaner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/igl/!svn/ver/56/trunk/iglCLI/TextboxCleaner.cs
+END
+LanguageGenerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/igl/!svn/ver/60/trunk/iglCLI/LanguageGenerator.cs
+END
+SGCategoryAxis.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/igl/!svn/ver/54/trunk/iglCLI/SGCategoryAxis.cs
+END
+XMLWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/igl/!svn/ver/41/trunk/iglCLI/XMLWriter.cs
+END
+StyleCop.Cache
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/igl/!svn/ver/41/trunk/iglCLI/StyleCop.Cache
+END
+SGSeriesCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/igl/!svn/ver/41/trunk/iglCLI/SGSeriesCollection.cs
+END
+EnglishGenerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/igl/!svn/ver/41/trunk/iglCLI/EnglishGenerator.cs
+END
+SGPlotArea.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/igl/!svn/ver/41/trunk/iglCLI/SGPlotArea.cs
+END
+SGTextBoxCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/igl/!svn/ver/59/trunk/iglCLI/SGTextBoxCollection.cs
+END
+ExcelGraphReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/igl/!svn/ver/56/trunk/iglCLI/ExcelGraphReader.cs
+END
+iGraphConstants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/igl/!svn/ver/41/trunk/iglCLI/iGraphConstants.cs
+END
+SGGraphPrologue.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/igl/!svn/ver/41/trunk/iglCLI/SGGraphPrologue.cs
+END
+ICleaner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/igl/!svn/ver/41/trunk/iglCLI/ICleaner.cs
+END
+French.nv
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/igl/!svn/ver/65/trunk/iglCLI/French.nv
+END
+SGSeries.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/igl/!svn/ver/45/trunk/iglCLI/SGSeries.cs
+END
+SGTextBox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/igl/!svn/ver/41/trunk/iglCLI/SGTextBox.cs
+END
+IGraphLite.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/igl/!svn/ver/41/trunk/iglCLI/IGraphLite.cs
+END
+SGValueAxis.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/igl/!svn/ver/56/trunk/iglCLI/SGValueAxis.cs
+END
+CsvFile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/igl/!svn/ver/41/trunk/iglCLI/CsvFile.cs
+END
+Options.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/igl/!svn/ver/41/trunk/iglCLI/Options.cs
+END
+CategoryAxisCleaner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/igl/!svn/ver/61/trunk/iglCLI/CategoryAxisCleaner.cs
+END
+IGraphConsole.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/igl/!svn/ver/41/trunk/iglCLI/IGraphConsole.cs
+END
+iglCLI.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/igl/!svn/ver/53/trunk/iglCLI/iglCLI.csproj
+END
+IIGraphReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/igl/!svn/ver/41/trunk/iglCLI/IIGraphReader.cs
+END
+StatisticalGraph.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/igl/!svn/ver/41/trunk/iglCLI/StatisticalGraph.cs
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/igl/!svn/ver/41/trunk/iglCLI/Program.cs
+END
+English.nv
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/igl/!svn/ver/65/trunk/iglCLI/English.nv
+END
+IGraphConsoleOptions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/igl/!svn/ver/41/trunk/iglCLI/IGraphConsoleOptions.cs
+END

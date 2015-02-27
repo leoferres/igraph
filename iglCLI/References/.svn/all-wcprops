@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/igl/!svn/ver/41/trunk/iglCLI/References
+END
+LumenWorks.Framework.IO.dll
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/igl/!svn/ver/41/trunk/iglCLI/References/LumenWorks.Framework.IO.dll
+END
+NVelocity.dll
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/igl/!svn/ver/41/trunk/iglCLI/References/NVelocity.dll
+END
+log4net.dll
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/igl/!svn/ver/41/trunk/iglCLI/References/log4net.dll
+END
+LumenWorks.Framework.IO.XML
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/igl/!svn/ver/41/trunk/iglCLI/References/LumenWorks.Framework.IO.XML
+END
+Interop.Excel.dll
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/igl/!svn/ver/41/trunk/iglCLI/References/Interop.Excel.dll
+END
+NVelocity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/igl/!svn/ver/41/trunk/iglCLI/References/NVelocity.xml
+END
+log4net.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/igl/!svn/ver/41/trunk/iglCLI/References/log4net.xml
+END

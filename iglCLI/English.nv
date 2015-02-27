@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>$graph.MainTitle</title>
+</head>
+<body>
+<img src="fip_en.gif" alt="Statistics Canada, Government of Canada" />
+<!--descriptionbegin-->
+  <p> 
+  ## GENERAL GRAPH PROPERTIES
+  The title of the graph is "$graph.MainTitle". <br />
+  
+  ## LINE GRAPHS
+  #if($graph.Prologue.GetGraphType()==4)
+    This is a line graph. <br />
+    
+  ## VERTICAL BAR GRAPHS
+  #elseif($graph.Prologue.GetGraphType()==51)
+    This is a vertical bar graph,
+    so categories are on the horizontal axis and values on the vertical axis. <br />
+  
+  ## STACKED BAR GRAPHS
+  #elseif($graph.Prologue.GetGraphType()==52)
+    This is a stacked bar graph. <br />
+  
+  ## HORIZONTAL BAR GRAPH
+  #elseif($graph.Prologue.GetGraphType()==57)
+
+    
+  ## COMBINATION GRAPH
+  #else
+    This is a combination graph. <br />
+  #end
+  
+  ## HORIZONTAL BAR GRAPH
+  #if($graph.Prologue.GetGraphType()==57)
+    This is a horizontal bar graph, so categories are on the vertical axis and values on the horizontal axis. <br />
+    ## The title of the chart is "<xsl:value-of select="/vdesc/scene/graph/titles/mainTitle/primary/text()"/>". 
+    There are in total $graph.CategoryAxis.PrimaryCategories.Count categories on this vertical axis. <br />
+    The horizontal (or value) axis starts at $graph.ValueAxis.StartsAt and ends at $graph.ValueAxis.EndsAt,
+    with ticks every $graph.ValueAxis.Stepping. <br />
+  
+  ## EXPLAIN FOR ANY OTHER GRAPH DISTINCT TO HORIZONTAL BAR GRAPH
+  #else
+    There are in total $graph.CategoryAxis.PrimaryCategories.Count categories in the horizontal axis. 
+    The vertical axis starts at $graph.ValueAxis.StartsAt and ends at $graph.ValueAxis.EndsAt,
+    with ticks every $graph.ValueAxis.Stepping $english.PluralizeWord('point',$graph.ValueAxis.Stepping).  <br />
+  #end
+  
+  ## GRAPH DETAILS
+  #if($graph.Series.Count > 1)
+  There are $graph.Series.Count series in this graph. <br />
+  #else
+  There is only one series in this graph. <br />
+  #end
+  
+  
+  
+  ## VALUE AXIS INFO
+  ### Horizontal graph
+  #if($graph.Prologue.GetGraphType()==57) 
+	The horizontal axis is 
+  #else
+	The vertical axis is 
+  #end
+  
+  #if($graph.ValueAxis.Title=='null')
+    undefined. <br />
+  #elseif($graph.ValueAxis.Title=='undefined' || $graph.ValueAxis.Title=='None')
+    undefined. <br />
+  #elseif($graph.ValueAxis.Title=='$ billions' )
+    billions of dollars. <br />
+  #elseif($graph.ValueAxis.Title=='%' )
+	percent. <br />
+  #else
+    "$graph.ValueAxis.Title". <br />
+    ## FIXIT is there any secondary title?
+  #end
+  
+  ## CATEGORY AXIS
+  #if($graph.CategoryAxis.getPrimaryCategoryType()=="UNDEF" && $graph.CategoryAxis.getSecondaryCategoryType()=="UNDEF")   
+    
+    #if($graph.Prologue.GetGraphType()==57) 
+		The vertical axis could not be determined. <br />
+	#else
+		The horizontal axis could not be determined. <br />
+	#end
+
+  #else
+  
+	#if($graph.Prologue.GetGraphType()==57) 
+		The vertical axis is 
+	#else
+		The units of the horizontal axis are
+	#end
+	  
+	#if($graph.CategoryAxis.getPrimaryCategoryType()=="MONTH" && $graph.CategoryAxis.getSecondaryCategoryType()=="YEAR")
+			months by year, ranging from
+			$graph.CategoryAxis.getFirstPrimaryCategory(), $graph.CategoryAxis.getFirstSecondaryCategory() to
+			$graph.CategoryAxis.getLastPrimaryCategory(), $graph.CategoryAxis.getLastSecondaryCategory(). <br />
+	        
+	#elseif($graph.CategoryAxis.getPrimaryCategoryType()=="QUARTER" && $graph.CategoryAxis.getSecondaryCategoryType()=="YEAR")
+			in quarters by year, ranging from
+			$graph.CategoryAxis.getFirstPrimaryCategory(), $graph.CategoryAxis.getFirstSecondaryCategory() to
+			$graph.CategoryAxis.getLastPrimaryCategory(), $graph.CategoryAxis.getLastSecondaryCategory(). <br />
+	        
+	 #elseif($graph.CategoryAxis.getPrimaryCategoryType()=="YEAR")
+		  years, ranging from $graph.CategoryAxis.getFirstPrimaryCategory() to
+		  $graph.CategoryAxis.getLastPrimaryCategory(). <br />
+     #elseif($graph.CategoryAxis.getPrimaryCategoryType()=="MONTH")
+		  months, ranging from $graph.CategoryAxis.getFirstPrimaryCategory() to
+		  $graph.CategoryAxis.getLastPrimaryCategory(). <br />
+	 #end
+
+   #end
+  
+  #foreach($s in $graph.Series)
+    #set ( $id = $s.ID + 1 )
+    
+    The title of series $id is "$s.Name"
+    #if($s.Type==4)
+       and it is a line series. <br />
+    #elseif($s.Type==57)
+       and it is a horizontal bar series. <br />
+    #elseif($s.Type==52)
+       and it is part of a stacked column series. <br />
+    #elseif($s.Type==51)
+       and it is a series of bars. <br />
+    #elseif($s.Type==76)
+       and it is an area series. <br />
+    #elseif($s.Type==53)
+       and it is a series of bars that add up to 100%. <br />
+    #elseif($s.Type==58)
+       and it is a series of stacked bars. <br />
+    #else . <br />
+    
+    ##  ?????????????????? $s.Type ????????????????????????
+    
+    #end
+
+	
+	#set( $nMins = $s.getMinValuesAt().Count() )
+	#set( $nMaxs = $s.getMaxValuesAt().Count() )
+
+    ##The minimum value is $s.minValue occuring in $graph.CategoryAxis.getPrimaryCategoryAt($minAt) $graph.CategoryAxis.getSecondaryCategoryAt($minAt). <br />
+	The minimum value is $s.minValue occuring in
+	#set( $i = 0)
+	#foreach ( $minAt in $s.getminValuesAt() )
+		$graph.CategoryAxis.getPrimaryCategoryAt($minAt) $graph.CategoryAxis.getSecondaryCategoryAt($minAt)
+		#if ( $i + 2 == $nMins )
+			and 
+	    #elseif ( $i + 1 == $nMins )
+	        .
+	    #else
+			,
+	    #end
+		
+		#set( $i = $i + 1 )
+	#end
+	<br />
+    
+    ##The maximum value is $s.maxValue occuring in $graph.CategoryAxis.getPrimaryCategoryAt($maxAt) $graph.CategoryAxis.getSecondaryCategoryAt($maxAt). <br />
+    The maximum value is $s.maxValue occuring in
+    #set( $i = 0 )
+	#foreach ( $maxAt in $s.getmaxValuesAt() )
+		$graph.CategoryAxis.getPrimaryCategoryAt($maxAt) $graph.CategoryAxis.getSecondaryCategoryAt($maxAt)
+		#if ( $i + 2 == $nMaxs )
+			and 
+	    #elseif ( $i + 1 == $nMaxs )
+	        .
+	    #else
+			,
+	    #end
+		
+		#set( $i = $i + 1 )
+	#end
+	<br />
+    
+    
+  #end
+
+  #if ($graph.Textboxes.CountFootnotes() > 0)
+   <br />  
+   #if ($graph.Textboxes.CountFootnotes() == 1)
+   This chart has a note which reads
+   #else
+   This chart has some notes which reads
+   #end
+   #foreach($textbox in $graph.Textboxes)
+    #if ($textbox.Function() == "FOOTNOTE")
+		"$textbox.Text" <br />
+	#end 
+   #end
+   #end
+</p>
+<!--descriptionend-->
+  
+  #set( $totalcols = $graph.CategoryAxis.PrimaryCategories.Count() )
+  #set( $idcols = 0 )
+  
+  <table border="1" cellpadding="4" cellspacing="0">
+  <caption>Data table for this chart</caption>
+  <tbody>
+
+    #macro( header )#set( $head = $idcols - $totalcols - 2)un_${head}#end
+    #macro( headers $j )#set( $lastcol = $idcols - 1 )#set( $head1 = $j )#set( $head2 = $j + $totalcols + 1)un_${lastcol} un_${head1}#if ($graph.CategoryAxis.SecondaryCategories.Count > 0) un_${head2}#end#end
+    #macro( createid )un_${idcols}#set( $idcols = $idcols + 1 )#end
+
+    <tr>
+	<th id="#createid()"> $english.EnglishWord($graph.CategoryAxis.getPrimaryCategoryType()) </th>
+		#foreach ($pc in $graph.CategoryAxis.PrimaryCategories )
+		  <th id="#createid()" >$pc</th>
+		#end
+   </tr>
+	  
+   #if ($graph.CategoryAxis.SecondaryCategories.Count > 0)
+   <tr>
+	<th id="#createid()"> $english.EnglishWord($graph.CategoryAxis.getSecondaryCategoryType()) </th>
+    	#foreach ($sc in $graph.CategoryAxis.SecondaryCategories )
+	     <th id="#createid()" headers="#header()" >$sc</th>
+		#end
+	  </tr>
+   #end
+
+   ## For duplicates
+   #set( $pseries = [] )
+   #set( $pcounter = [] )
+    
+   #foreach($s in $graph.Series)
+    <tr>
+      <th id="#createid()">      
+      #if ( $s.Name != "none" )
+		  $s.Name
+
+		  ## Searching duplicates		  
+		  #set ($pos = $pseries.IndexOf($s.Name) )
+		  #if ( $pos >= 0 )
+		    #set( $newcount = $pcounter.get_Item($pos) + 1)
+		    ($newcount)
+		    #set( $newcount = $pcounter.set_Item($pos, $newcount))
+		  #else
+			#set( $added = $pseries.Add($s.Name) )
+			#set( $count = $pcounter.Add(0) )
+		  #end
+		  
+      #else 
+        #set ( $id = $s.ID + 1 )
+        Series $id
+      #end
+      </th>
+      
+      #set ( $j = 0 )
+      #foreach ($v in $s.Values)
+		#set ( $j = $j + 1 )
+        <td headers="#headers($j)">$v</td>
+      #end
+      
+    </tr>
+    #end
+  </tbody>  
+  </table>
+  
+
+  <hr />
+  <small>This description was generated by <em>iGraph</em>-Lite on $date</small>
+</body>
+</html>

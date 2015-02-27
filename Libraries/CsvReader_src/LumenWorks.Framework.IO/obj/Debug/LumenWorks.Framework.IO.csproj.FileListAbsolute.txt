@@ -1,0 +1,7 @@
+C:\Users\diegocaro\Downloads\CsvReader_src\LumenWorks.Framework.IO\bin\Debug\LumenWorks.Framework.IO.dll
+C:\Users\diegocaro\Downloads\CsvReader_src\LumenWorks.Framework.IO\bin\Debug\LumenWorks.Framework.IO.pdb
+C:\Users\diegocaro\Downloads\CsvReader_src\LumenWorks.Framework.IO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diegocaro\Downloads\CsvReader_src\LumenWorks.Framework.IO\obj\Debug\LumenWorks.Framework.IO.Csv.Resources.ExceptionMessage.resources
+C:\Users\diegocaro\Downloads\CsvReader_src\LumenWorks.Framework.IO\obj\Debug\LumenWorks.Framework.IO.csproj.GenerateResource.Cache
+C:\Users\diegocaro\Downloads\CsvReader_src\LumenWorks.Framework.IO\obj\Debug\LumenWorks.Framework.IO.dll
+C:\Users\diegocaro\Downloads\CsvReader_src\LumenWorks.Framework.IO\obj\Debug\LumenWorks.Framework.IO.pdb

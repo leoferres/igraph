@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iglCLI", "iglCLI\iglCLI.csproj", "{2DACA870-D122-48C2-B2C5-8DF465E63AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iglGUI", "iglGUI\iglGUI.csproj", "{5C3AE57B-153A-45CD-AF31-4259DC5E6E96}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2DACA870-D122-48C2-B2C5-8DF465E63AF2} = {2DACA870-D122-48C2-B2C5-8DF465E63AF2}
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "iglSetup", "iglSetup\iglSetup.vdproj", "{EB06DDF3-4FDF-4F07-B250-A2D8928EBEA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DACA870-D122-48C2-B2C5-8DF465E63AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DACA870-D122-48C2-B2C5-8DF465E63AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DACA870-D122-48C2-B2C5-8DF465E63AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DACA870-D122-48C2-B2C5-8DF465E63AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3AE57B-153A-45CD-AF31-4259DC5E6E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3AE57B-153A-45CD-AF31-4259DC5E6E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3AE57B-153A-45CD-AF31-4259DC5E6E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3AE57B-153A-45CD-AF31-4259DC5E6E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB06DDF3-4FDF-4F07-B250-A2D8928EBEA3}.Debug|Any CPU.ActiveCfg = Debug
+		{EB06DDF3-4FDF-4F07-B250-A2D8928EBEA3}.Debug|Any CPU.Build.0 = Debug
+		{EB06DDF3-4FDF-4F07-B250-A2D8928EBEA3}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

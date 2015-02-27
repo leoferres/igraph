@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.IO/Csv
+END
+MissingFieldAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.IO/Csv/MissingFieldAction.cs
+END
+CsvReader.RecordEnumerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.IO/Csv/CsvReader.RecordEnumerator.cs
+END
+CsvReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.IO/Csv/CsvReader.cs
+END
+ParseErrorAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.IO/Csv/ParseErrorAction.cs
+END
+CachedCsvReader.CsvPropertyDescriptor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.IO/Csv/CachedCsvReader.CsvPropertyDescriptor.cs
+END
+CachedCsvReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.IO/Csv/CachedCsvReader.cs
+END
+CachedCsvReader.CsvBindingList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.IO/Csv/CachedCsvReader.CsvBindingList.cs
+END
+CsvReader.DataReaderValidations.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.IO/Csv/CsvReader.DataReaderValidations.cs
+END
+CachedCsvReader.CsvRecordComparer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/igl/!svn/ver/29/trunk/Libraries/CsvReader_src/LumenWorks.Framework.IO/Csv/CachedCsvReader.CsvRecordComparer.cs
+END

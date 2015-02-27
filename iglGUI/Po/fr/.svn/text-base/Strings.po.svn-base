@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Diego Caro <diegocaro@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: CANADA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:43
+msgid "Running iGraph, please wait a bit"
+msgstr "iIGraph est en opération, s'il vous plaît, attendre un instant"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:52
+msgid "Chart files not found"
+msgstr "Les fichiers des graphiques n'ont pas été trouvés"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:60
+msgid "Error on iGraph, see the log window"
+msgstr "Une erreur est survenue dans IGraph, consulter la fenêtre du journal"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:70
+msgid "Directory not found"
+msgstr "Le dossier n'a pas été trouvé"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:77
+msgid "No directory was specified"
+msgstr "Aucun dossier n'a été spécifié"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:125
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:148
+msgid "Done."
+msgstr "Terminé."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:130
+msgid "Error on iGraph, see the log window."
+msgstr "Une erreur est survenue dans IGraph, consulter la fenêtre du journal."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:142
+msgid "Loading graph files from"
+msgstr "Chargement des fichiers graphiques de"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:213
+msgid "Viewing file"
+msgstr "Traitement en cours du fichier"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:316
+msgid "Description saved on"
+msgstr "Description sauvegardée dans"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:331
+msgid "Step 1: Choose directory and generate"
+msgstr "Étape 1: Sélectionner un dossier et générer"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:335
+msgid "Generates iGraph descriptions for Excel files in folder."
+msgstr "Descriptions de IGraph pour les fichiers Excel sauvegardées dans le dossier."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:336
+msgid "Generate descriptions."
+msgstr "Générer les descriptions."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:337
+msgid "Run"
+msgstr "Exécuter"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:342
+msgid "Text displaying the chosen directory."
+msgstr "Texte montrant le dossier sélectionné."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:343
+msgid "Chosen directory."
+msgstr "Dossier sélectionné."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:348
+msgid "Browse"
+msgstr "Naviguer"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:349
+msgid "Browse and select the directory that contains the excel graphs."
+msgstr "Naviguer et sélectionnez le dossier qui contient les graphiques excel."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:350
+msgid "Browse."
+msgstr "Naviguer."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:359
+msgid "File"
+msgstr "Fichier"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:364
+msgid "Exit"
+msgstr "Quitter"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:369
+msgid "Help"
+msgstr "Aide"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:374
+msgid "About..."
+msgstr "Au sujet de..."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:378
+msgid "This space displays the gif file being analyzed."
+msgstr "Cet espace affiche le fichier .gif en cours d'analyse."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:379
+msgid "Picture viewer."
+msgstr "Visionneur d'images."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:384
+msgid "This space shows the generated text."
+msgstr "Cet espace affiche le texte généré."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:385
+msgid "Description box."
+msgstr "Boîte de description."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:390
+msgid "Accept and save the generated description."
+msgstr "Accepter et sauvegarder la description générée."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:391
+msgid "Accept and save."
+msgstr "Accepter et sauvegarder."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:392
+msgid "Ok, Save"
+msgstr "OK, Sauvegarder"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:397
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:404
+msgid "Go to the previous graph and description."
+msgstr "Aller au graphique et à la description précédante"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:398
+msgid "Next graph."
+msgstr "Graphique suivant."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:399
+msgid "Next"
+msgstr "Suivant"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:405
+msgid "Previous graph."
+msgstr "Graphique precedent."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:406
+msgid "Previous"
+msgstr "Précédant"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:415
+msgid "Step 2: Check descriptions"
+msgstr "Étape 2: Vérifier la description."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:420
+msgid "Information"
+msgstr "Information"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:425
+msgid "Log Level:"
+msgstr "Niveau de detail du journal:"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:430
+msgid "Select the log level for igraph, where the value 1 is quite and 6 is verbose."
+msgstr "Sélectionner la valeur du niveau de détails pour le journal de IGraph où 1 correspond à peu de détails alors que 6 est très détaillé."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:431
+msgid "Log level."
+msgstr "Niveau de detail du journal."
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:436
+msgid "This space displays textual information to the user"
+msgstr "Cet espace affiche de l'information textuelle à l'utilisateur"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:437
+msgid "Information box"
+msgstr "Boîte d’information"
+
+#: C:\Users\diegocaro\Documents\igraph\trunk\iglGUI\MainForm.cs:449
+msgid "iglUI - Statistics Canada"
+msgstr "Statistique Canada"
+
